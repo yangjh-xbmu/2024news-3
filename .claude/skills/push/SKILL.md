@@ -10,7 +10,7 @@ description: 为当前项目执行 git add、commit、push。触发词：push、
 ## 操作步骤
 
 1. 执行 `git add .`
-2. 执行 `git commit`（使用默认 commit message 或用户提供）
+2. 执行 `git commit -m "xxx"`）xxx 是提交信息，可以根据实际情况生成
 3. 执行 `git push`
 
 ## 使用场景

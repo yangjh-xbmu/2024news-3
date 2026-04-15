@@ -1,15 +1,51 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="zh-CN">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>JavaScrip核心概念学习</title>
-</head>
-<body>
+  </head>
+  <body>
     <h1>JavaScript核心概念学习</h1>
     <p>这是关于JavaScript核心概念的学习内容。</p>
     <script>
-        
+      // JavaScript变量，要有案例和详细注释，能让初学者理解每句代码的作用
+      // 变量是用来存储数据的容器，可以使用var、let或
+      // const来声明变量。var是ES5之前的变量声明方式，let和const是ES6引入的。
+      // var声明的变量具有函数作用域，而let和const具有块级作用域。
+      // 下面是一些变量声明的示例：
+      // 使用var声明变量
+      var name = "Alice"; // 声明一个变量name，并赋值为"Alice"
+      console.log(name); // 输出变量name的值，结果是"Alice"
+      // 使用let声明变量
+      let age = 30; // 声明一个变量age，并赋值为30
+      console.log(age); // 输出变量age的值，结果是30
+      // 使用const声明常量
+      const PI = 3.14; // 声明一个常量PI，并赋值为3.14
+      console.log(PI); // 输出常量PI的值，   结果是3.14
+      // 注意：使用const声明的变量必须在声明时初始化，并且不能被重新赋值。
+
+      // JavaScript数据类型
+      // JavaScript数据类型分为两大类：原始类型（primitive types）和对象类型（object types）。
+      // 原始类型包括：字符串（String）、数字（Number）、布尔值（Boolean）、null、undefined和Symbol（ES6引入）。
+      // 对象类型包括：对象（Object）、数组（Array）和函数（Function）。
+
+      // 下面是一些数据类型的示例：
+      // 字符串类型
+      let str = "Hello, World!"; // 声明一个字符串变量str，并赋值为"Hello, World!"
+      console.log(str); // 输出变量str的值，结果是"Hello, World!"
+      // 数字类型
+      let num = 42; // 声明一个数字变量num，并赋值为42
+      console.log(num); // 输出变量num的值，结果是42
+      // 布尔值类型
+      let isJavaScriptFun = true; // 声明一个布尔变量isJavaScriptFun，并赋值为true
+      console.log(isJavaScriptFun); // 输出变量isJavaScriptFun的值，结果是true
+      // null类型
+      let emptyValue = null; // 声明一个变量emptyValue，并赋值为null，表示没有值
+      console.log(emptyValue); // 输出变量emptyValue的值，结果是null
+      // undefined类型
+      let undefinedValue; // 声明一个变量undefinedValue，但没有赋值，默认值为undefined
+      console.log(undefinedValue); // 输出变量undefinedValue的值，结果是undefined
     </script>
-</body>
+  </body>
 </html>
